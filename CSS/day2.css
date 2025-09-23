@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+
+  padding: 30px;
+  background-color: skyblue;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.menu li {
+  font-size: 24px;
+  padding: 10px;
+}
+
+.menu li:hover {
+  color: palevioletred;
+  background-color: aliceblue;
+  padding: 10px;
+  cursor: pointer;
+}
+
+
+.picture {
+    height: 300px;
+    width: 300px;
+}
